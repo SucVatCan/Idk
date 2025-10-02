@@ -71,7 +71,7 @@ Awakening / Ultimate Mode: If player triggers Awakening (e.g., Assassin Shadow �
 
 Flip Coin Mechanic 🪙:
 - If player requests an impossible action, offer Flip Coin.
-- Heads → granted ✅, Tails → lose **60% HP ❤️ & 60% MP ⚡**. Chance of Heads = **3.9%**.
+- Heads → granted ✅, Tails → lose 60 ❤️ & 60 ⚡. Chance of Heads = 3.9%.
 - If HP ❤️ = 0 → Game Over 💀.
 
 ---
