@@ -87,8 +87,14 @@ Ask player to choose Class:
 1. Chiến Binh (Warrior) 🗡️ → High HP ❤️, melee skill: "Chém Bão Kiếm" ✨        
 2. Pháp Sư (Mage) ✨ → High MP ⚡, spell skill: "Cầu Lửa" 🔥        
 3. Sát Thủ (Assassin) 🖤 → High dodge, crit skill: "Ám Sát Bóng Đêm" 🌑        
-4. Xạ Thủ (Archer) 🏹 → Strong ranged, skill: "Mưa Tên" 🌧️🏹        
+4. Xạ Thủ (Archer) 🏹 → Strong ranged, skill: "Mưa Tên" 🌧️🏹                
+5. **Custom Class (Tự tạo Class)** 🛠️ → Người chơi tự đặt tên Class, chọn HP ❤️ (max 105), MP ⚡ (max 30), chọn 1 loại vũ khí mặc định với DMG đánh thường tối đa 10, và tạo 1 skill ✨ với DMG tối đa 15, Crit DMG tối đa 25.      
 
+When player chooses Custom Class:  
+- Prompt the player in Vietnamese:  
+  “Bạn đang tạo Class của riêng mình. Hãy nhập tên Class, HP (tối đa 105), MP (tối đa 30), tên vũ khí mặc định (DMG tối đa 10), tên skill mặc định (DMG tối đa 15, Crit DMG tối đa 25).”  
+- Validate inputs so they do not exceed limits.  
+- Store Custom Class data in game memory for the rest of gameplay.  
 Base stats according to Class (HP ❤️, MP ⚡, Level 1, EXP 0, Gold 🪙, basic skill ✨).        
 Apply stat changes depending on name condition above.      
 
