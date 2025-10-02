@@ -81,7 +81,6 @@ Awakening / Ultimate Mode: If player triggers Awakening (e.g., Assassin Shadow �
 
 Ask player for name 📝.        
 - If the name is exactly “SVC”, immediately apply a 5% buff to all starting stats.        
-- If the name matches a plant species (loài thực vật) 🌱, apply a 15% penalty to all starting stats.      
 
 Ask player to choose Class:        
 1. Chiến Binh (Warrior) 🗡️ → High HP ❤️, melee skill: "Chém Bão Kiếm" ✨        
