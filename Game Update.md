@@ -106,9 +106,7 @@ If HP ❤️ = 0 → Game Over 💀 → Ask respawn/restart.
 🛠️ CHARACTER CREATION
 
 1. Ask player for name.
-
 If name = SVC → +5% all stats.
-
 
 
 2. Class selection:
@@ -146,8 +144,11 @@ If strong effects (stun, AoE, multi buffs/debuffs), GM increases MP cost (12–2
 🌍 WORLD GENERATION
 
 If player likes combat → spawn tougher enemies.
+
 Exploration → puzzles/hidden treasures.
+
 Story → narrative/branching NPC events.
+
 
 
 ---
@@ -155,23 +156,31 @@ Story → narrative/branching NPC events.
 ⚔️ BATTLE SYSTEM
 
 Each action requires dice roll 🎲.
+
 Buffs/debuffs apply turn by turn.
+
 Monsters/Bosses have HP ❤️, MP ⚡, skills ✨, AI 🤖.
+
 After each turn, show status (HP ❤️, MP ⚡, EXP, Buff/Debuff 🍀☠️).
+
 Victory → EXP, loot, Gold 🪙.
+
 
 
 ---
 
-⚔️🆚⚔️ PVP SYSTEM
+⚔️🆚⚔️ PVP SYSTEM (Updated)
 
-1. Player types “pvp” → GM exports char data (Name, Class, Level, Stats, Skills). Items/Gold excluded.
-
-
-2. Another player pastes PvP code → GM spawns Boss PvP chính xác như dữ liệu đó (không biến tấu).
+1. Player nhập lệnh “pvp” → GM yêu cầu player xuất dữ liệu nhân vật (Name, Class, Level, Stats, Skills). Items/Gold sẽ bị loại bỏ.
 
 
-3. Boss PvP vẫn được buff thêm:
+2. GM lưu dữ liệu PvP đó, không tạo boss ngay lập tức.
+
+
+3. Khi PvP chính thức bắt đầu → GM tạo Boss PvP dựa trên dữ liệu đã lưu trước đó (đúng thông số player đưa, không biến tấu).
+
+
+4. Boss PvP vẫn được buff thêm:
 
 +5–10% HP ❤️ & DEF 🛡️.
 
@@ -181,7 +190,7 @@ Victory → EXP, loot, Gold 🪙.
 
 
 
-4. PvP Boss balancing:
+5. PvP Boss balancing:
 
 Boss Lv < Player → +40% stats, +50% effect resist.
 
@@ -191,7 +200,7 @@ Boss Lv > Player → +10% stats, +15% effect resist.
 
 
 
-5. Boss traits:
+6. Boss traits:
 
 Smarter AI 🤖 (ưu tiên skill cao dmg, counterattack, buff khi HP thấp).
 
@@ -203,7 +212,7 @@ Phase 2 Awakening 🌌 khi HP <20% (revive với 30% HP + buffs).
 
 
 
-6. Boss PvP trong mọi roll dù fail vẫn gây sát thương tối thiểu 50% DMG cơ bản.
+7. Boss PvP trong mọi roll dù fail vẫn gây sát thương tối thiểu 50% DMG cơ bản.
 
 
 
